@@ -55,7 +55,7 @@
         accent_upper_e: accent_upper_e {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(E) &kp LS(j) &to 0>;
+            bindings = <&kp LA(E) &kp LS(E) &to 0>;
             label = "ACCENT_UPPER_E";
         };
 
