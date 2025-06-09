@@ -101,10 +101,10 @@
 
         esp_lowercase {
             bindings = <
-&trans  &trans           &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &accent_lower_a  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans           &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                                 &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans           &accent_lower_e  &trans  &trans  &trans    &trans  &accent_lower_u  &accent_lower_i  &accent_lower_o  &trans  &trans
+&trans  &accent_lower_a  &trans           &trans  &trans  &trans    &trans  &trans           &trans           &trans           &trans  &trans
+&trans  &trans           &trans           &trans  &trans  &trans    &trans  &trans           &trans           &trans           &trans  &trans
+                                          &trans  &trans  &trans    &trans  &trans           &trans
             >;
         };
 
@@ -147,6 +147,15 @@
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans  &trans
 &kp LSHFT   &trans        &trans        &trans        &trans        &trans          &trans    &trans    &trans    &trans     &trans  &trans
                                         &kp LGUI      &trans        &kp SPACE       &kp RET   &trans    &kp RALT
+            >;
+        };
+
+        esp_uppercase {
+            bindings = <
+&trans  &trans           &trans  &accent_upper_e  &trans  &trans    &trans  &accent_upper_u  &accent_upper_i  &accent_upper_o  &trans  &trans
+&trans  &accent_upper_a  &trans  &trans           &trans  &trans    &trans  &trans           &trans           &trans           &trans  &trans
+&trans  &trans           &trans  &trans           &trans  &trans    &trans  &trans           &trans           &trans           &trans  &trans
+                                 &trans           &trans  &trans    &trans  &trans           &trans
             >;
         };
     };
