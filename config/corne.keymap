@@ -20,77 +20,77 @@
         accent_lower_e: accent_lower_e {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(E) &kp E>;
+            bindings = <&kp LA(E) &kp E &to 0>;
             label = "ACCENT_LOWER_E";
         };
 
         accent_lower_i: accent_lower_i {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(E) &kp I>;
+            bindings = <&kp LA(E) &kp I &to 0>;
             label = "ACCENT_LOWER_I";
         };
 
         accent_lower_o: accent_lower_o {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(E) &kp O>;
+            bindings = <&kp LA(E) &kp O &to 0>;
             label = "ACCENT_LOWER_O";
         };
 
         accent_lower_u: accent_lower_u {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(E) &kp U>;
+            bindings = <&kp LA(E) &kp U &to 0>;
             label = "ACCENT_LOWER_U";
         };
 
         accent_upper_a: accent_upper_a {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(E) &kp LS(A)>;
+            bindings = <&kp LA(E) &kp LS(A) &to 0>;
             label = "ACCENT_UPPER_A";
         };
 
         accent_upper_e: accent_upper_e {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(E) &kp LS(j)>;
+            bindings = <&kp LA(E) &kp LS(j) &to 0>;
             label = "ACCENT_UPPER_E";
         };
 
         accent_upper_i: accent_upper_i {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(E) &kp LS(I)>;
+            bindings = <&kp LA(E) &kp LS(I) &to 0>;
             label = "ACCENT_UPPER_I";
         };
 
         accent_upper_o: accent_upper_o {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(E) &kp LS(O)>;
+            bindings = <&kp LA(E) &kp LS(O) &to 0>;
             label = "ACCENT_UPPER_O";
         };
 
         accent_upper_u: accent_upper_u {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(E) &kp LS(U)>;
+            bindings = <&kp LA(E) &kp LS(U) &to 0>;
             label = "ACCENT_UPPER_U";
         };
 
         special_lower_n: special_lower_n {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(N) &kp LS(N)>;
+            bindings = <&kp LA(N) &kp LS(N) &to 0>;
             label = "SPECIAL_LOWER_N";
         };
 
         special_upper_n: special_upper_n {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(N) &kp LS(N)>;
+            bindings = <&kp LA(N) &kp LS(N) &to 0>;
             label = "SPECIAL_UPPER_N";
         };
     };
