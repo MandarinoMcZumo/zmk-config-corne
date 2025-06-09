@@ -16,6 +16,13 @@
             bindings = <&kp LA(E) &kp A>;
             label = "ACCENT_LOWER_A";
         };
+
+        accent_upper_a: accent_upper_a {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(E) &kp LS(A)>;
+            label = "ACCENT_UPPER_A";
+        };
     };
 
     keymap {
