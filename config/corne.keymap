@@ -17,11 +17,67 @@
             label = "ACCENT_LOWER_A";
         };
 
+        accent_lower_e: accent_lower_e {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(E) &kp E>;
+            label = "ACCENT_LOWER_E";
+        };
+
+        accent_lower_i: accent_lower_i {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(E) &kp I>;
+            label = "ACCENT_LOWER_I";
+        };
+
+        accent_lower_o: accent_lower_o {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(E) &kp O>;
+            label = "ACCENT_LOWER_O";
+        };
+
+        accent_lower_u: accent_lower_u {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(E) &kp U>;
+            label = "ACCENT_LOWER_U";
+        };
+
         accent_upper_a: accent_upper_a {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LA(E) &kp LS(A)>;
             label = "ACCENT_UPPER_A";
+        };
+
+        accent_upper_e: accent_upper_e {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(E) &kp LS(j)>;
+            label = "ACCENT_UPPER_E";
+        };
+
+        accent_upper_i: accent_upper_i {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(E) &kp LS(I)>;
+            label = "ACCENT_UPPER_I";
+        };
+
+        accent_upper_o: accent_upper_o {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(E) &kp LS(O)>;
+            label = "ACCENT_UPPER_O";
+        };
+
+        accent_upper_u: accent_upper_u {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(E) &kp LS(U)>;
+            label = "ACCENT_UPPER_U";
         };
     };
 
