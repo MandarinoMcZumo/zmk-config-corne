@@ -79,6 +79,20 @@
             bindings = <&kp LA(E) &kp LS(U)>;
             label = "ACCENT_UPPER_U";
         };
+
+        special_lower_n: special_lower_n {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(N) &kp LS(N)>;
+            label = "SPECIAL_LOWER_N";
+        };
+
+        special_upper_n: special_upper_n {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(N) &kp LS(N)>;
+            label = "SPECIAL_UPPER_N";
+        };
     };
 
     keymap {
