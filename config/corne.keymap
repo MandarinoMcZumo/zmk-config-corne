@@ -145,10 +145,10 @@
 
         NUM {
             bindings = <
-&trans        &kp N7        &kp N8        &kp N9        &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans
-&kp ASTERISK  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS          &kp EQUAL            &trans  &kp F5  &kp F6   &kp F7   &kp F8   &kp BACKSPACE
-&kp SLASH     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp GRAVE         &kp BACKSLASH        &trans  &kp F1  &kp F2   &kp F3   &kp F4   &trans
-                                          &kp COMMA     &kp N0            &kp PERIOD           &trans  &trans  &trans
+&kp ASTRK  &kp N7        &kp N8        &kp N9        &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans
+&kp ENTER  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS          &kp EQUAL            &trans  &kp F5  &kp F6   &kp F7   &kp F8   &kp BACKSPACE
+&kp SLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp GRAVE         &kp BACKSLASH        &trans  &kp F1  &kp F2   &kp F3   &kp F4   &trans
+                                       &kp COMMA     &kp N0            &kp PERIOD           &trans  &trans  &trans
             >;
         };
 
@@ -187,10 +187,10 @@
 
         esp_lowercase {
             bindings = <
-&trans  &trans           &accent_lower_e  &trans  &trans  &trans    &trans            &accent_lower_u  &accent_lower_i  &accent_lower_o  &trans  &trans
-&trans  &accent_lower_a  &trans           &trans  &trans  &trans    &trans            &trans           &trans           &trans           &trans  &trans
-&trans  &trans           &trans           &trans  &trans  &trans    &special_lower_n  &trans           &trans           &trans           &trans  &trans
-                                          &trans  &mo 6   &trans    &trans            &trans           &trans
+&trans  &trans           &trans  &accent_lower_e  &trans  &trans    &trans            &accent_lower_u  &accent_lower_i  &accent_lower_o  &trans  &trans
+&trans  &accent_lower_a  &trans  &trans           &trans  &trans    &trans            &trans           &trans           &trans           &trans  &trans
+&trans  &trans           &trans  &trans           &trans  &trans    &special_lower_n  &trans           &trans           &trans           &trans  &trans
+                                 &trans           &mo 6   &trans    &trans            &trans           &trans
             >;
         };
 
